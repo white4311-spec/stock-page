@@ -1,0 +1,25 @@
+# 환경변수 (API 키 등 민감 정보)
+.env
+*.env
+!.env.example
+
+# 의존성
+node_modules/
+__pycache__/
+.venv/
+venv/
+
+# 빌드 산출물
+dist/
+build/
+*.pyc
+
+# 에디터
+.vscode/
+.idea/
+
+# DB
+backend/data/
+
+# 테스트
+test_screenshots/
